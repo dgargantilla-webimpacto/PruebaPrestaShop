@@ -2,3 +2,15 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+
+#authentication {
+    background-color: #FA2398;
+    background-image: linear-gradient(180deg, #FA2398 0%, #DD1F94 100%) no-repeat center center;
+    background-size: auto;
+}
+
+#authentication #wrapper {
+    background-color: #FA2398;
+    background-image: linear-gradient(180deg, #FA2398 0%, #DD1F94 100%) no-repeat center center;
+    background-size: auto;
+}
