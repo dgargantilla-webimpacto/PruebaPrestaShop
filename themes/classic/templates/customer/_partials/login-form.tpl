@@ -23,7 +23,7 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {block name='login_form'}
-
+{* <span>Hola Mundo</span> *}
   {block name='login_form_errors'}
     {include file='_partials/form-errors.tpl' errors=$errors['']}
   {/block}
@@ -31,6 +31,8 @@
   <form id="login-form" action="{block name='login_form_actionurl'}{$action}{/block}" method="post">
 
     <section>
+      {* <span>Hola Mundo</span> *}
+      {* login_form_fields *}
       {block name='login_form_fields'}
         {foreach from=$formFields item="field"}
           {block name='form_field'}

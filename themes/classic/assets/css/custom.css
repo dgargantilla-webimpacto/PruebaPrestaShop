@@ -3,6 +3,96 @@
  * A template should always ship with an empty custom.css
  */
 
+@media screen and (min-width: 641px) {
+    .contenedor {
+        top: 103px;
+        bottom: 103px;
+
+        height: 694px;
+        width: 409px;
+
+        border-radius: 8px;
+        border-radius: 8px;
+    }
+
+    .contenedor .col {
+        width: 409px;
+    }
+
+    .fila2 {
+        background-size: 70%;
+        height: 30%;
+        border-radius: 8px;
+        width: 409px;
+    }
+
+    .fila3 {
+
+        height: 25px;
+        width: 409px;
+    }
+
+    .span1 {
+        width: 44px;
+        height: 14px;
+    }
+
+    .span2 {
+        width: 95px;
+        height: 14px;
+
+
+
+        text-align: right;
+    }
+
+    .filalogo {
+        width: 409px;
+        height: 30px;
+        margin-top: 35px;
+        padding-left: 10px;
+    }
+
+
+    .filaLoguin {
+        height: 30px;
+        width: 409px;
+
+        margin-top: 53px;
+    }
+
+    .span3 {
+        width: 72px;
+        height: 30px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .span4 {
+        height: 20px;
+        font-size: 13px;
+        margin-top: 5px;
+    }
+}
+
+@font-face {
+    font-family: Nexa-XBold;
+    src: url("../fonts/Nexa/Nexa_V1_2012/Nexa\ Bold.otf");
+}
+
+@font-face {
+    font-family: Nexa-Bold;
+    /* src: url("../fonts/Nexa/Nexa_V1_2012/Nexa\ Light.otf"); */
+    src: url("../fonts/Nexa/Nexa_V1_2012/Nexa\ Light.otf");
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    /* src: url("../fonts/Lato-Regular.ttf"); */
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+
 #authentication {
     background-color: #FA2398;
     background-image: linear-gradient(180deg, #FA2398 0%, #DD1F94 100%) no-repeat center center;
@@ -13,4 +103,111 @@
     background-color: #FA2398;
     background-image: linear-gradient(180deg, #FA2398 0%, #DD1F94 100%) no-repeat center center;
     background-size: auto;
+}
+
+/* .contenedor {
+    position: relative;
+
+    background: #FFFFFF;
+    box-shadow: 0 17px 26px 0 rgba(26, 27, 28, 0.10);
+} */
+.all {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    background: #FFFFFF;
+    box-shadow: 0 17px 26px 0 rgba(26, 27, 28, 0.10);
+}
+
+.fila2 {
+    background-image: url(../img/Light-Cover-Pattern-bg@2x.png);
+
+}
+
+
+
+#img1 {
+    height: 24px;
+    width: 24px;
+    /* margin-bottom: 5px; */
+
+
+}
+
+.c1 {
+    text-align: left;
+}
+
+.span1 {
+    display: inline;
+
+    font-family: Nexa-XBold;
+    font-size: 14px;
+    color: #3B3B3B;
+    text-align: center;
+    line-height: 12px;
+}
+
+.c {
+    text-align: right;
+}
+
+.span2 {
+    display: inline-block;
+    letter-spacing: 1px;
+
+    /* width:  95px;
+    height: 14px; */
+
+
+    font-family: Nexa-XBold;
+    font-size: 12px;
+    color: #3B3B3B;
+    text-align: center;
+    line-height: 13px;
+
+    text-decoration: underline #3B3B3B;
+}
+
+#img2 {
+
+
+    height: 24px;
+    width: 24px;
+}
+
+
+
+.span3 {
+    display: inline-block;
+
+
+
+    font-family: Nexa-XBold;
+    /* font-size: 25px; */
+    color: #1A1B1C;
+    letter-spacing: 1px;
+    text-align: center;
+    /* line-height: 30px; */
+}
+
+.filaA {
+    height: 20px;
+}
+
+.span4 {
+    display: inline-block;
+
+
+    font-family: Lato-Regular;
+    letter-spacing: 0.3px;
+    color: #84868A;
+    text-align: center;
+    line-height: 20px;
 }
