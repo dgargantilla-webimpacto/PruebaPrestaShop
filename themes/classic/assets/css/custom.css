@@ -3,8 +3,9 @@
  * A template should always ship with an empty custom.css
  */
 
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 450px) {
     .contenedor {
+
         top: 103px;
         bottom: 103px;
 
@@ -16,10 +17,13 @@
     }
 
     .contenedor .col {
+        display: flex;
+        justify-content: center;
         width: 409px;
     }
 
     .fila2 {
+        top: 103px;
         background-size: 70%;
         height: 30%;
         border-radius: 8px;
@@ -117,24 +121,37 @@
 }
 
 .contenedor {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     position: relative;
 
     background: #FFFFFF;
     box-shadow: 0 17px 26px 0 rgba(26, 27, 28, 0.10);
 }
 
+.contenedor .col {
+    display: flex;
+    flex-direction: column;
+}
+
 .fila2 {
     background-image: url(../img/Light-Cover-Pattern-bg@2x.png);
+    /* display: flex;
+    justify-content: center; */
+}
 
+.fila3 {
+    display: flex;
+    justify-content: space-around;
 }
 
 
-
 #img1 {
+    border: none;
     height: 24px;
     width: 24px;
+    background-image: url(../img/go-back.svg);
+    /* background-image: url(../img/go-back.svg); */
     /* margin-bottom: 5px; */
 
 
@@ -176,8 +193,9 @@
 }
 
 #img2 {
-
-
+    border: none;
+    background-image: url(../img/User-plus.svg);
+    /* background-image: url(../img/User-plus.svg); */
     height: 24px;
     width: 24px;
 }
@@ -199,6 +217,8 @@
 
 .filaA {
     height: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .span4 {
@@ -210,4 +230,69 @@
     color: #84868A;
     text-align: center;
     line-height: 20px;
+}
+
+.filalogo {
+    display: flex;
+    justify-content: center;
+}
+
+.filalogo img {
+    border: none;
+    background-image: url(../img/Nutritienda-simple_logo.svg);
+}
+
+.filaLoguin {
+    display: flex;
+    justify-content: center;
+}
+
+.span5 {
+    display: inline-block;
+    /* margin-right: 10px; */
+    letter-spacing: 0.3px;
+    font-family: Nexa-Bold;
+
+    color: #3B3B3B;
+    text-align: center;
+    line-height: 12px;
+}
+
+.filaA2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr {
+    width: 33px;
+    margin: 5px;
+    background: #9EA0A4;
+}
+
+.hr2 {
+    width: 43px;
+    margin: 0px;
+    background: #9EA0A4;
+}
+
+.icone img {
+    width: 25px;
+    height: 25px;
+}
+
+.filaA3 {
+    display: flex;
+    justify-content: center;
+}
+
+.fila5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filaF {
+    height: 300px;
+    /* width: 409px; */
 }
