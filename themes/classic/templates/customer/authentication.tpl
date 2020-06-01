@@ -34,24 +34,25 @@
     {*
     {* {block name='content_'} *}
     {block name='content_wrapper'}
+    <div class="container-fluid p-0">
+        {* <span>Hola Mundo</span> *}
+        {block name='login_form_container'}
+        {* <span>Hola Mundo</span> *}
+        {* <section class="login-form">
 
-    {* <span>Hola Mundo</span> *}
-    {block name='login_form_container'}
-    {* <span>Hola Mundo</span> *}
-    {* <section class="login-form">
-
-    </section>
-    <hr />
-    {block name='display_after_login_form'}
-    {hook h='displayCustomerLoginFormAfter'}
-    {/block}
-    <div class="no-account">
-        <a href="{$urls.pages.register}" data-link-action="display-register-form">
-            {l s='No account? Create one here' d='Shop.Theme.Customeraccount'}
-        </a>
-    </div> *}
-    {render file='customer/_partials/header-login.tpl' ui=$login_form}
-    {/block}
+        </section>
+        <hr />
+        {block name='display_after_login_form'}
+        {hook h='displayCustomerLoginFormAfter'}
+        {/block}
+        <div class="no-account">
+            <a href="{$urls.pages.register}" data-link-action="display-register-form">
+                {l s='No account? Create one here' d='Shop.Theme.Customeraccount'}
+            </a>
+        </div> *}
+        {render file='customer/_partials/header-login.tpl' ui=$login_form}
+        {/block}
+    </div>
     {/block}
 
     {block name="footer"}

@@ -2,6 +2,274 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+@media screen and (max-width: 376px) {
+    html {
+        height: 640px;
+    }
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .b {
+        background-color: none;
+        background-image: none;
+    }
+
+    .cf {
+        height: 100%;
+    }
+
+    .fila {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contenedor {
+        top: 0px;
+        border-radius: 0px;
+        border-radius: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fila2 {
+        background-size: 70%;
+        height: 30%;
+        border-radius: 0px;
+        /* width: 100%;
+        min-width: 100%; */
+        /* width: device-width; */
+    }
+
+    .fila3 {
+        height: 25px;
+        width: 100%;
+        /* height:  25px;
+        width: 576px; */
+    }
+
+    .span1 {
+        width: 34px;
+        height: 10px;
+    }
+
+    .span2 {
+        width: 100px;
+    }
+
+    .c1 {
+
+        padding-left: 10px;
+    }
+
+    .filalogo {
+        width: 50%;
+        height: 40px;
+        margin-top: 30px;
+    }
+
+    .filalogo img {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .filaLoguin {
+        height: 30px;
+        width: 100%;
+        text-align: center;
+
+        margin-top: 10px;
+    }
+
+    .filaLoguin .col-4 {
+        padding-top: 14px;
+    }
+
+    .span3 {
+        width: 72px;
+        height: 30px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+
+    .filaF {
+        width: 360px;
+
+    }
+
+    .filaA2 {
+        text-align: center;
+
+    }
+
+    .span4 {
+        height: 20px;
+        font-size: 13px;
+    }
+
+    .span5 {
+        width: 202px;
+        height: 12px;
+        font-size: 10px;
+    }
+
+    p {
+        width: 128px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    #label {
+        width: 100px;
+    }
+
+    a {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        height: 640px;
+    }
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .b {
+        background-color: none;
+        background-image: none;
+    }
+
+    .cf {
+        height: 100%;
+    }
+
+    .fila {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contenedor {
+        top: 0px;
+        border-radius: 0px;
+        border-radius: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fila2 {
+        background-size: 70%;
+        height: 30%;
+        border-radius: 0px;
+        /* width: 100%;
+        min-width: 100%; */
+        /* width: device-width; */
+    }
+
+    .fila3 {
+        height: 25px;
+        width: 100%;
+        /* height:  25px;
+        width: 576px; */
+    }
+
+    .span1 {
+        width: 34px;
+        height: 10px;
+    }
+
+    .span2 {
+        width: 100px;
+    }
+
+    .c1 {
+        padding: 0px;
+    }
+
+    .filalogo {
+        width: 100%;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    .filalogo img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .filaLoguin {
+        height: 30px;
+        width: 100%;
+        text-align: center;
+
+        margin-top: 10px;
+    }
+
+    .span3 {
+        width: 72px;
+        height: 30px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .fila4 {
+        width: 100%;
+    }
+
+    .fila5 {
+        height: 100%;
+    }
+
+    .filaF {
+        width: 100%;
+
+    }
+
+    .filaA2 {
+        text-align: center;
+
+    }
+
+
+
+    .c2 {
+        height: 330px;
+    }
+
+    .span4 {
+        height: 20px;
+        font-size: 13px;
+    }
+
+    .span5 {
+        width: 202px;
+        height: 12px;
+        font-size: 10px;
+    }
+
+    .ca {
+        text-align: right;
+    }
+
+    p {
+        width: 128px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+}
 
 @media screen and (min-width: 450px) {
     .contenedor {
@@ -65,6 +333,11 @@
         margin-top: 53px;
     }
 
+    .fila5 {
+
+        width: 409px;
+    }
+
     .span3 {
         width: 72px;
         height: 30px;
@@ -77,6 +350,15 @@
         font-size: 13px;
         margin-top: 5px;
     }
+
+    .span5 {
+        font-size: 12px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
 }
 
 @font-face {
@@ -96,6 +378,13 @@
     src: url("../fonts/Lato-Regular.ttf");
 }
 
+#wrapper {
+    padding: 0;
+}
+
+#wrapper :first-child {
+    padding: 0;
+}
 
 #authentication {
     background-color: #FA2398;
@@ -150,7 +439,7 @@
     border: none;
     height: 24px;
     width: 24px;
-    background-image: url(../img/go-back.svg);
+
     /* background-image: url(../img/go-back.svg); */
     /* margin-bottom: 5px; */
 
@@ -194,7 +483,7 @@
 
 #img2 {
     border: none;
-    background-image: url(../img/User-plus.svg);
+
     /* background-image: url(../img/User-plus.svg); */
     height: 24px;
     width: 24px;
@@ -239,10 +528,15 @@
 
 .filalogo img {
     border: none;
-    background-image: url(../img/Nutritienda-simple_logo.svg);
+
 }
 
 .filaLoguin {
+    display: flex;
+    justify-content: center;
+}
+
+.filaLoguin :first-child {
     display: flex;
     justify-content: center;
 }
@@ -292,7 +586,135 @@
     align-items: center;
 }
 
+
+.fila5 :first-child {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.filac {
+    display: flex;
+    justify-content: space-between;
+}
+
 .filaF {
     height: 300px;
     /* width: 409px; */
+}
+
+.ca {
+    text-align: right;
+}
+
+a {
+    margin-top: 5px;
+    color: #FA2398;
+    font-family: Lato-Regular;
+
+    letter-spacing: 0;
+    text-align: right;
+    line-height: 20px;
+}
+
+a:hover {
+    color: #DD1F94;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+.inner-addon .icone {
+    position: absolute;
+    padding: 10px;
+    /* pointer-events: none; */
+}
+
+.right-addon .icone {
+    background-size: contain;
+    border: none;
+    outline: none;
+    margin-top: 0px;
+
+    z-index: 2;
+    opacity: .3;
+    right: 0px;
+    top: 25px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+.form-check-label {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #3B3B3B;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+#boton {
+    /* border-color: #FA2398;
+    background-color: #FA2398 ; */
+    /* height: 100%; */
+    font-family: Nexa-XBold;
+    font-size: 16px;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: none;
+    background-color: #FA2398;
+    border-radius: 6px;
+    line-height: 42px;
+}
+
+#label {
+    display: flex;
+    justify-content: left;
+}
+
+/*# sourceMappingURL=estilos.css.map */
+.custom-radio-checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Modificador para dar la imagen de checkbox */
+.custom-radio-checkbox__show--checkbox {
+    background-image: none;
+}
+
+/* Oculta input original */
+.custom-radio-checkbox>.custom-radio-checkbox__input {
+    display: none;
+}
+
+/* Radio personalizado usando <span> */
+.custom-radio-checkbox>.custom-radio-checkbox__show {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: .5rem;
+    background-size: cover;
+}
+
+/* Cambia el checkbox personalizado cuando es pulsado */
+.custom-radio-checkbox>.custom-radio-checkbox__input:checked+.custom-radio-checkbox__show--checkbox {
+    background-image: url(../img/check_for_checkbox.svg);
+}
+
+.custom-radio-checkbox span {
+    border: 1px solid;
+}
+
+.form-control input {
+    border-radius: 6px;
+}
+
+#footer {
+    padding: 0;
 }
